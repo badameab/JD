@@ -1,0 +1,222 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  body {
+    position: relative;
+    background-color: rgb(248, 248, 248);
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    -ms-overflow-style: scrollbar;
+    font-weight: regular;
+    
+  }
+
+   /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #200303e8;
+  position: relative;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px!important;
+
+  
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #200303e8;
+  background-color:#200303e8;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #200303e8;
+  color: #fff;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #200303e8;
+  color: white;
+} 
+
+.logo img{
+  width: 150px;
+}
+
+/* ========pro css starts========= */
+.chicken img{
+    width: 150px;
+    display: inline-block;
+    
+}
+
+.check p{
+    color: black;
+}
+
+.content h3{
+    color: #717161;
+}
+
+.chicken{
+    display: flex;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    justify-content: space-around;
+}
+.content h5{
+    color: #717161;
+}
+
+.check{
+    justify-content: center;
+}
+
+/* ==========pro css ends========= */
+
+
+/* ======footer====== */
+.icons{
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.9;
+  margin-top: 20px !important;
+  margin-bottom: 10px;
+  position: fixed !important;
+  left: 0;
+  bottom: 0;
+  background-color:  rgb(230, 117, 13);
+  width: 100%;
+}
+  
+  .div-1, .div-2, .div-3,.div-4{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    /* line-height: 24px; */
+  
+  }
+  
+  /* .div-1,.div-2,.div-4{
+    line-height: 24px;
+  } */
+  
+  .div-1 h4{
+    color: #717161;
+    line-height: 18px;
+  
+  }
+  
+  .div-2 h4{
+    color: #717161;
+    line-height: 24px;
+  }
+  
+  .div-3 h4{
+    color: #717161;
+    line-height: 24px;
+  }
+
+/* ======grid===== strsts*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+}
+
+.chicken{
+  border: 1px solid rgb(196, 196, 196);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 20px 20px 20px !important;
+
+}
+
+
+
+/* grid ends */
+
+.address{
+  font-size: large;
+  font-weight: 600;
+  color: rgb(14, 13, 13);
+}
+
+.add-1, .add-2, .add-3, .add-4{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.check button{
+  width: 160px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid #b8b884;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color: rgb(184, 199, 148);
+}
+
+.total button{
+  width: 160px;
+  height: 25px;
+  border-radius: 10px;
+  border: 2px solid #cf2c2c;
+  box-shadow: 0 4px 8px 0 rgba(179, 13, 13, 0.2), 0 6px 20px 0 rgba(119, 1, 1, 0.19);
+ background-color: rgb(206, 69, 69);
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.total-1, .total-2, .total-3, .total-4{
+  margin-bottom: 15px;
+  margin-left: 0px;
+}
+
+.wrapper{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+}
+
+
+@media(max-width:368px){
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
